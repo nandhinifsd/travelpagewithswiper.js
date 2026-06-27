@@ -150,6 +150,16 @@
     .review{
         background-color: rgb(182, 177, 177);
     }
+       .swiper-slidereview{
+        img{
+             display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+        }
+
+        }
+   
     .customfooter{
         background-color:rgba(12,12,69);
         height:fit-content;
