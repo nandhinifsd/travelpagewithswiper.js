@@ -1,0 +1,164 @@
+.custom-navbar{
+    padding:10px;
+    background-color: white;
+
+}
+.navbar-title{
+        display:flex;
+        flex-direction:row;
+            font-size: 10rem;
+            text-shadow: #f6f2c0;
+            font-weight: bolder;
+            padding-left: 10px;
+            .title1
+            {
+                position:relative;
+                top:30px;
+                left:20px;
+                font-family:"Share Tech", sans-serif;
+                color:rgb(12, 12, 69);
+                 .title2{
+                       color:rgb(230, 171, 11);
+                        }
+            }
+        }
+           
+   .heading-font{
+        font-family:"Share Tech", sans-serif;
+        font-weight: bold;
+        font-size: xx-large;
+       
+
+   }
+   .subheading-font{
+        font-family:"Share Tech", sans-serif;
+        font-weight: bold;
+        font-size: medium;
+        
+
+   }
+   .custom-font{
+    
+        color:rgb(12, 12, 69);
+        font-weight: bolder;
+   }
+   .custom-subfont{
+    color:grey;
+   }
+   .package-button{
+    background-color:rgb(12, 12, 69);
+    color:white;
+     font-family:"Share Tech", sans-serif;
+     font-weight: bold;
+        font-size: x-large;
+
+   }
+
+   .planurtrip{
+     background-image: url('review/beach.jpg');
+    background-size: cover;      /* fills entire div */
+    background-position: center; /* centers image */
+    background-repeat: no-repeat;
+    height:auto;
+   }
+    .formdesign{
+        
+        background: rgba(0,0,0,0.25);
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(30px);
+
+        color: white;
+        border: 1px solid rgba(255,255,255,0.2);
+        height:70%;
+        border-radius: 20px;
+        padding:3vw;
+    }
+    .marginabout40px{
+        padding:40px;
+    }
+     .marginabout20px{
+        padding:20px;
+    }
+    .imagebutton{
+        background-color: transparent;
+        border:none;
+        border-radius: 20px;
+        padding:0;
+        cursor:pointer;
+        transition: transform 0.3s ease;
+        color:white;
+        font-size: medium;
+           
+    }
+    .imagebutton:focus{
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
+     .imagebutton:hover{
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
+     .cardswiper {
+      width:350px;
+      height:350px;
+    }
+      .swiperstyle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #d60f0f;
+    }
+    .tripcard{
+       height: 350px;
+    border: none;
+    border-radius: 20px;
+    transition:transform 0.3s ease;
+   
+    }
+    .tripcard:hover{
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
+    
+    .card-button{
+        border-radius: 20px;
+        cursor:pointer;
+        font-size:medium;
+        font-family:"Share Tech", sans-serif;
+    }
+    #packagecarousel{
+        background-image: transparent;
+        height:auto;
+    }
+    .trusted{
+        background-color: rgb(12, 12, 69);
+        color:rgb(230, 171, 11);
+        height:fit-content;
+    }
+    .glasscard{
+         background: rgba(0,0,0,0.25);
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(30px);
+        height:170px;
+        color:rgb(230, 171, 11) ;
+        border: 1px solid rgba(255,255,255,0.2);
+         border-radius: 20px;
+        padding:0.5vw;
+    }
+    .review{
+        background-color: rgb(182, 177, 177);
+    }
+    .customfooter{
+        background-color:rgba(12,12,69);
+        height:fit-content;
+        padding:20px;
+   color:rgb(230, 171, 11) ;
+  
+  
+}
+    
+
+            
+       
